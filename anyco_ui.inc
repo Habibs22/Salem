@@ -1,6 +1,7 @@
 <?php
+
 function ui_print_header($title){
-$title=htmletities($title);
+$title=htmlentities($title);
 echo <<<END
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD
 HTML 4.01//EN"
@@ -10,20 +11,20 @@ HTML 4.01//EN"
 <meta http-equiv="Content-Type" content="text/html;
 charset=ISO 8859-1">
 <link rel="Stylesheet" type="text/css" href="style.css">
-<title> Any Co. : $title/title>
+<title> Any Co. : $title</title>
 </head>
 <body>
 <h1>$title</h1>
-<h1>$title</h1>
-<h1></h1>
 END;
+}
+
 function ui_print_footer($date){
-$date-htmlentities($date);
+$date=htmlentities($date);
   echo <<<END
   <div class="footer">
   <div_class="date">$date</div>
   <div class="company">Any Co.</div>
   </div>
-  END;
-  }
-  ?>
+END;
+}
+?>
