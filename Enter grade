@@ -1,0 +1,47 @@
+<html>
+<body>
+
+<script type="text/javascript" language="javascript"
+<!
+	var grade=prompt('Enter your grade here')
+	
+	switch (true)
+{
+	
+	case (grade >=100): document.write("A+<br/>");
+		break;
+	
+	case (grade >=91): document.write("A<br/>");
+		break;
+	
+	case (grade >=85): document.write("B+<br/>");
+		break;
+	
+	case (grade >=80): document.write("B<br/>");
+		break;
+	
+	case (grade >=74): document.write("B-<br/>");
+		break;
+	
+	case (grade >=60): document.write("C<br/>");
+		break;
+
+	case (grade >=50): document.write("C-<br/>");
+		break;
+	
+	case (grade >=49): document.write("Failed<br/>");
+		break;
+
+default:document.write("Re-Enter the correct grade<br/>");
+
+	}
+
+document.write("Exiting switch block");
+
+//-->
+
+</script>
+<p>Set the variable to different value and try another one...</p>
+
+</body>
+</html>
