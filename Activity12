@@ -1,0 +1,40 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity#12</title>
+</head>
+<body background="lels2.png">
+
+<script language="javascript" type="type/javascript">
+
+<!--
+
+		function answer()
+		{
+			while(true)
+
+			{
+				var guess=prompt("What is your answer?");
+				 if (guess == "airplane"){
+				 	alert("CORRECT");
+				 	return false
+				 }
+				
+				 else 
+
+				 {
+				 	alert("Wrong Answer");
+				 	return true;
+
+
+				 }
+			}
+		}
+</script>
+<h1>What is your Answer?</h1>
+<img src="lels2.png" alt="Activity12">
+<input type="button" onclick="answer()";
+value=ClickAnswer
+
+</body>
+</html>
