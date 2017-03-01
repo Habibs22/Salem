@@ -1,8 +1,8 @@
 <html>
 <body>
 
-<script type="text/javascript" language="javascript"
-<!
+<script type="text/javascript" language="javascript">
+<!--
 	var grade=prompt('Enter your grade here')
 	
 	switch (true)
